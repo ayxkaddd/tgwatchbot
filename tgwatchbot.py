@@ -17,7 +17,7 @@ def start(message):
         [f"{message.chat.id}", f'{message.from_user.username}', f'{message.from_user.first_name}', f'{message.from_user.last_name}'],
     ]
 )
-    #s = f'id: {message.chat.id}\nusername: {message.from_user.username}\nfirst name: {message.from_user.first_name}\nlast name: {message.from_user.last_name}'
+  
     print(Fore.GREEN + f'{ptable}')
 
 
@@ -33,7 +33,7 @@ def text(message):
     [
         [f'{name}', f'{message.text}'],
     ]
-    )
+)
     print(Fore.GREEN + f'{ptable2}')
 
 
